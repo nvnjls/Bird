@@ -3,9 +3,9 @@ using System.Collections;
 
 public class OuterCircleController : MonoBehaviour {
 
-	public float rotationSpeed = 450f;
+	public float rotationSpeed = 600f;
 
-	private int activator = 0;
+	private int activator = 1;
 
 	void Update () {
 		transform.Rotate(0f,0f,-rotationSpeed*Time.deltaTime*activator);
