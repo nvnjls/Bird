@@ -3,7 +3,7 @@ using System.Collections;
 
 public class OuterCircleController : MonoBehaviour {
 
-	public float rotationSpeed = 600f;
+	public float rotationSpeed = 60f;
 
 	private int activator = 100;
 
