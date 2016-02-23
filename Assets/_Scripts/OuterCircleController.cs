@@ -7,6 +7,8 @@ public class OuterCircleController : MonoBehaviour {
 
 	private int activator = 100;
 
+    private int TestVariable = 12;
+
 	void Update () {
 		transform.Rotate(0f,0f,-rotationSpeed*Time.deltaTime*activator);
 	}
