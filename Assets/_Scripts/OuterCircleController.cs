@@ -5,7 +5,7 @@ public class OuterCircleController : MonoBehaviour {
 
 	public float rotationSpeed = 600f;
 
-	private int activator = 1;
+	private int activator = 100;
 
 	void Update () {
 		transform.Rotate(0f,0f,-rotationSpeed*Time.deltaTime*activator);
