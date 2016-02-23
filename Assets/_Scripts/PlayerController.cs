@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour {
 	private Vector2 deltaMovement;
 	private bool handlePhysics = false;
 	private bool handleInput = true;
-	private bool reactivateControlls = false;
+	private bool reactivateControlls = true;
 	private bool touchTop = false;
 	private bool touchDown = false;
 	private bool gameStarted = false;
